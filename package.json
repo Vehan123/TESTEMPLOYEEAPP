@@ -1,0 +1,12 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "Employee Management System — Node.js/Express/SQLite backend + React frontend",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "test:backend": "cd backend && npm test"
+  }
+}
